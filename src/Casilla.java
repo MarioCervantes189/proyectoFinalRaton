@@ -11,6 +11,14 @@ public class Casilla {
         this.y = y;
     }
 
+    public boolean esMeta() {
+        return esMeta;
+    }
+
+    public void setEsMeta(boolean esMeta) {
+        this.esMeta = esMeta;
+    }
+
     public void setEstado(Estado estado) {
         this.estado = estado;
     }

@@ -12,7 +12,7 @@ public enum Estado {
         this.estado = estado;
     }
 
-    public String getEstado() {
+    public String toString() {
         return estado;
     }
 }
